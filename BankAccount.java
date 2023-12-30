@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package project3;
+package project2;
 
 /**
  *
@@ -13,7 +13,8 @@ public class BankAccount {
     protected String owner;
     protected double balance;
 
-    public BankAccount(double balance) {
+    public BankAccount(String owner, double balance) {
+        this.owner = owner;
         this.balance = balance;
     }
 

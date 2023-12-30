@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package project3;
+package project2;
 
 /**
  *
@@ -13,7 +13,7 @@ public class MoneyMarketAccount extends BankAccount {
     private int numWithdrawals;
 
     public MoneyMarketAccount(String owner, double balance, int numWithdrawals) {
-        super(balance);
+        super(owner, balance);
         this.numWithdrawals = numWithdrawals;
     }
 
@@ -42,4 +42,3 @@ public class MoneyMarketAccount extends BankAccount {
         }
     }
 }
-

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package project3;
+package project2;
 
 /**
  *
@@ -12,7 +12,7 @@ package project3;
 public class CDAccount extends BankAccount {
     private double interestRate;
     public CDAccount(String owner, double balance, double interestRate) {
-        super(balance);
+        super(owner, balance);
         this.interestRate = interestRate;
     }
     @Override
@@ -36,5 +36,4 @@ public class CDAccount extends BankAccount {
         }
     }
 }
-
 
